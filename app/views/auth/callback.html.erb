@@ -1,0 +1,23 @@
+<h1>Name: <%= @profile.first_name %> <%= @profile.last_name %></h1>
+<br />
+<strong><%= @profile.headline %></strong><br />
+<%= @profile.connections.size.inspect %> connections<br />
+
+<%= @profile.summary %><br />
+<%= @profile.education.inspect %><br />
+<%= @profile.three_current_positions.inspect %><br />
+
+<%= @profile.industry %>
+
+<%= image_tag @profile.picture_url %>
+
+<h2>Recent network updates:</h2>
+<p>
+<% @client.network_updates(:type => 'PICT').updates.each do |update| %>
+  <%= update.profile.first_name %> <%= update.profile.last_name %><br />
+  <%= image_tag update.profile.picture_url %><br />
+<hr />
+<% end %>
+</p>
+
+<%= link_to 'profile url', @profile.site_standard_profile_request.url %>

@@ -1,0 +1,920 @@
+/!\ FAILSAFE /!\  Tue Mar 02 11:35:09 +0100 2010
+  Status: 500 Internal Server Error
+  Expected /Users/martijn/Sites/innovationfactory/linkedout/app/controllers/application_controller.rb to define ApplicationController
+    /Users/martijn/.gem/ruby/1.8/gems/activesupport-2.3.5/lib/active_support/dependencies.rb:426:in `load_missing_constant'
+    /Users/martijn/.gem/ruby/1.8/gems/activesupport-2.3.5/lib/active_support/dependencies.rb:80:in `const_missing'
+    /Users/martijn/.gem/ruby/1.8/gems/activesupport-2.3.5/lib/active_support/dependencies.rb:92:in `const_missing'
+    /Users/martijn/Sites/innovationfactory/linkedout/app/controllers/application_controller.rb:1
+    /Users/martijn/.gem/ruby/1.8/gems/activesupport-2.3.5/lib/active_support/dependencies.rb:380:in `load_without_new_constant_marking'
+    /Users/martijn/.gem/ruby/1.8/gems/activesupport-2.3.5/lib/active_support/dependencies.rb:380:in `load_file'
+    /Users/martijn/.gem/ruby/1.8/gems/activesupport-2.3.5/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    /Users/martijn/.gem/ruby/1.8/gems/activesupport-2.3.5/lib/active_support/dependencies.rb:379:in `load_file'
+    /Users/martijn/.gem/ruby/1.8/gems/activesupport-2.3.5/lib/active_support/dependencies.rb:259:in `require_or_load'
+    /Users/martijn/.gem/ruby/1.8/gems/activesupport-2.3.5/lib/active_support/dependencies.rb:425:in `load_missing_constant'
+    /Users/martijn/.gem/ruby/1.8/gems/activesupport-2.3.5/lib/active_support/dependencies.rb:80:in `const_missing'
+    /Users/martijn/.gem/ruby/1.8/gems/activesupport-2.3.5/lib/active_support/dependencies.rb:92:in `const_missing'
+    /Users/martijn/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:89:in `dispatch'
+    /Users/martijn/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:121:in `_call'
+    /Users/martijn/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:130:in `build_middleware_stack'
+    /Users/martijn/.gem/ruby/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:29:in `call'
+    /Users/martijn/.gem/ruby/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:29:in `call'
+    /Users/martijn/.gem/ruby/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+    /Users/martijn/.gem/ruby/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:9:in `cache'
+    /Users/martijn/.gem/ruby/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:28:in `call'
+    /Users/martijn/.gem/ruby/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+    /Users/martijn/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/string_coercion.rb:25:in `call'
+    /Users/martijn/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/head.rb:9:in `call'
+    /Users/martijn/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/methodoverride.rb:24:in `call'
+    /Users/martijn/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/params_parser.rb:15:in `call'
+    /Users/martijn/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/session/cookie_store.rb:93:in `call'
+    /Users/martijn/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/failsafe.rb:26:in `call'
+    /Users/martijn/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+    /Users/martijn/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `synchronize'
+    /Users/martijn/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+    /Users/martijn/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:114:in `call'
+    /Users/martijn/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/reloader.rb:34:in `run'
+    /Users/martijn/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:108:in `call'
+    /Users/martijn/.gem/ruby/1.8/gems/rails-2.3.5/lib/rails/rack/static.rb:31:in `call'
+    /Users/martijn/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:46:in `call'
+    /Users/martijn/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `each'
+    /Users/martijn/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `call'
+    /Users/martijn/.gem/ruby/1.8/gems/rails-2.3.5/lib/rails/rack/log_tailer.rb:17:in `call'
+    /Users/martijn/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/content_length.rb:13:in `call'
+    /Users/martijn/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/handler/webrick.rb:50:in `service'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    /Users/martijn/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/handler/webrick.rb:14:in `run'
+    /Users/martijn/.gem/ruby/1.8/gems/rails-2.3.5/lib/commands/server.rb:111
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `require'
+    ./script/server:3
+/!\ FAILSAFE /!\  Tue Mar 02 11:35:54 +0100 2010
+  Status: 500 Internal Server Error
+  undefined method `call_with_exception' for ApplicationController:Class
+    /Users/martijn/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:90:in `dispatch'
+    /Users/martijn/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:121:in `_call'
+    /Users/martijn/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:130:in `build_middleware_stack'
+    /Users/martijn/.gem/ruby/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:29:in `call'
+    /Users/martijn/.gem/ruby/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:29:in `call'
+    /Users/martijn/.gem/ruby/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+    /Users/martijn/.gem/ruby/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:9:in `cache'
+    /Users/martijn/.gem/ruby/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:28:in `call'
+    /Users/martijn/.gem/ruby/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+    /Users/martijn/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/string_coercion.rb:25:in `call'
+    /Users/martijn/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/head.rb:9:in `call'
+    /Users/martijn/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/methodoverride.rb:24:in `call'
+    /Users/martijn/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/params_parser.rb:15:in `call'
+    /Users/martijn/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/session/cookie_store.rb:93:in `call'
+    /Users/martijn/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/failsafe.rb:26:in `call'
+    /Users/martijn/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+    /Users/martijn/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `synchronize'
+    /Users/martijn/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+    /Users/martijn/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:114:in `call'
+    /Users/martijn/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/reloader.rb:34:in `run'
+    /Users/martijn/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:108:in `call'
+    /Users/martijn/.gem/ruby/1.8/gems/rails-2.3.5/lib/rails/rack/static.rb:31:in `call'
+    /Users/martijn/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:46:in `call'
+    /Users/martijn/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `each'
+    /Users/martijn/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `call'
+    /Users/martijn/.gem/ruby/1.8/gems/rails-2.3.5/lib/rails/rack/log_tailer.rb:17:in `call'
+    /Users/martijn/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/content_length.rb:13:in `call'
+    /Users/martijn/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/handler/webrick.rb:50:in `service'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    /Users/martijn/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/handler/webrick.rb:14:in `run'
+    /Users/martijn/.gem/ruby/1.8/gems/rails-2.3.5/lib/commands/server.rb:111
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `require'
+    ./script/server:3
+/!\ FAILSAFE /!\  Tue Mar 02 11:36:46 +0100 2010
+  Status: 500 Internal Server Error
+  undefined method `call_with_exception' for ApplicationController:Class
+    /Users/martijn/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:90:in `dispatch'
+    /Users/martijn/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:121:in `_call'
+    /Users/martijn/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:130:in `build_middleware_stack'
+    /Users/martijn/.gem/ruby/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:29:in `call'
+    /Users/martijn/.gem/ruby/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:29:in `call'
+    /Users/martijn/.gem/ruby/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+    /Users/martijn/.gem/ruby/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:9:in `cache'
+    /Users/martijn/.gem/ruby/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:28:in `call'
+    /Users/martijn/.gem/ruby/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+    /Users/martijn/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/string_coercion.rb:25:in `call'
+    /Users/martijn/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/head.rb:9:in `call'
+    /Users/martijn/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/methodoverride.rb:24:in `call'
+    /Users/martijn/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/params_parser.rb:15:in `call'
+    /Users/martijn/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/session/cookie_store.rb:93:in `call'
+    /Users/martijn/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/failsafe.rb:26:in `call'
+    /Users/martijn/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+    /Users/martijn/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `synchronize'
+    /Users/martijn/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+    /Users/martijn/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:114:in `call'
+    /Users/martijn/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/reloader.rb:34:in `run'
+    /Users/martijn/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:108:in `call'
+    /Users/martijn/.gem/ruby/1.8/gems/rails-2.3.5/lib/rails/rack/static.rb:31:in `call'
+    /Users/martijn/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:46:in `call'
+    /Users/martijn/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `each'
+    /Users/martijn/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `call'
+    /Users/martijn/.gem/ruby/1.8/gems/rails-2.3.5/lib/rails/rack/log_tailer.rb:17:in `call'
+    /Users/martijn/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/content_length.rb:13:in `call'
+    /Users/martijn/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/handler/webrick.rb:50:in `service'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    /Users/martijn/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/handler/webrick.rb:14:in `run'
+    /Users/martijn/.gem/ruby/1.8/gems/rails-2.3.5/lib/commands/server.rb:111
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `require'
+    ./script/server:3
+/!\ FAILSAFE /!\  Tue Mar 02 11:38:22 +0100 2010
+  Status: 500 Internal Server Error
+  undefined method `call_with_exception' for ApplicationController:Class
+    /Users/martijn/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:90:in `dispatch'
+    /Users/martijn/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:121:in `_call'
+    /Users/martijn/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:130:in `build_middleware_stack'
+    /Users/martijn/.gem/ruby/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:29:in `call'
+    /Users/martijn/.gem/ruby/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:29:in `call'
+    /Users/martijn/.gem/ruby/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+    /Users/martijn/.gem/ruby/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:9:in `cache'
+    /Users/martijn/.gem/ruby/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:28:in `call'
+    /Users/martijn/.gem/ruby/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+    /Users/martijn/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/string_coercion.rb:25:in `call'
+    /Users/martijn/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/head.rb:9:in `call'
+    /Users/martijn/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/methodoverride.rb:24:in `call'
+    /Users/martijn/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/params_parser.rb:15:in `call'
+    /Users/martijn/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/session/cookie_store.rb:93:in `call'
+    /Users/martijn/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/failsafe.rb:26:in `call'
+    /Users/martijn/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+    /Users/martijn/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `synchronize'
+    /Users/martijn/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+    /Users/martijn/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:114:in `call'
+    /Users/martijn/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/reloader.rb:34:in `run'
+    /Users/martijn/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:108:in `call'
+    /Users/martijn/.gem/ruby/1.8/gems/rails-2.3.5/lib/rails/rack/static.rb:31:in `call'
+    /Users/martijn/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:46:in `call'
+    /Users/martijn/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `each'
+    /Users/martijn/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `call'
+    /Users/martijn/.gem/ruby/1.8/gems/rails-2.3.5/lib/rails/rack/log_tailer.rb:17:in `call'
+    /Users/martijn/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/content_length.rb:13:in `call'
+    /Users/martijn/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/handler/webrick.rb:50:in `service'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    /Users/martijn/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/handler/webrick.rb:14:in `run'
+    /Users/martijn/.gem/ruby/1.8/gems/rails-2.3.5/lib/commands/server.rb:111
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `require'
+    ./script/server:3
+/!\ FAILSAFE /!\  Tue Mar 02 11:39:07 +0100 2010
+  Status: 500 Internal Server Error
+  undefined method `call_with_exception' for ApplicationController:Class
+    /Users/martijn/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:90:in `dispatch'
+    /Users/martijn/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:121:in `_call'
+    /Users/martijn/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:130:in `build_middleware_stack'
+    /Users/martijn/.gem/ruby/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:29:in `call'
+    /Users/martijn/.gem/ruby/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:29:in `call'
+    /Users/martijn/.gem/ruby/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+    /Users/martijn/.gem/ruby/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:9:in `cache'
+    /Users/martijn/.gem/ruby/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:28:in `call'
+    /Users/martijn/.gem/ruby/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+    /Users/martijn/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/string_coercion.rb:25:in `call'
+    /Users/martijn/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/head.rb:9:in `call'
+    /Users/martijn/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/methodoverride.rb:24:in `call'
+    /Users/martijn/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/params_parser.rb:15:in `call'
+    /Users/martijn/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/session/cookie_store.rb:93:in `call'
+    /Users/martijn/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/failsafe.rb:26:in `call'
+    /Users/martijn/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+    /Users/martijn/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `synchronize'
+    /Users/martijn/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+    /Users/martijn/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:114:in `call'
+    /Users/martijn/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/reloader.rb:34:in `run'
+    /Users/martijn/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:108:in `call'
+    /Users/martijn/.gem/ruby/1.8/gems/rails-2.3.5/lib/rails/rack/static.rb:31:in `call'
+    /Users/martijn/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:46:in `call'
+    /Users/martijn/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `each'
+    /Users/martijn/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `call'
+    /Users/martijn/.gem/ruby/1.8/gems/rails-2.3.5/lib/rails/rack/log_tailer.rb:17:in `call'
+    /Users/martijn/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/content_length.rb:13:in `call'
+    /Users/martijn/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/handler/webrick.rb:50:in `service'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    /Users/martijn/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/handler/webrick.rb:14:in `run'
+    /Users/martijn/.gem/ruby/1.8/gems/rails-2.3.5/lib/commands/server.rb:111
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `require'
+    ./script/server:3
+
+
+Processing AuthController#index (for 127.0.0.1 at 2010-03-02 11:40:47) [GET]
+1
+Redirected to https://api.linkedin.com/uas/oauth/authorize?oauth_token=5a68e0a4-0ee2-4c94-ac3a-4870cc5a54c5
+Completed in 768ms (DB: 0) | 302 Found [http://localhost/]
+
+
+Processing AuthController#callback (for 127.0.0.1 at 2010-03-02 11:41:00) [GET]
+  Parameters: {"oauth_token"=>"5a68e0a4-0ee2-4c94-ac3a-4870cc5a54c5", "oauth_verifier"=>"47416"}
+
+ActionView::MissingTemplate (Missing template auth/callback.erb in view path app/views):
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing AuthController#callback (for 127.0.0.1 at 2010-03-02 11:41:47) [GET]
+  Parameters: {"oauth_token"=>"5a68e0a4-0ee2-4c94-ac3a-4870cc5a54c5", "oauth_verifier"=>"47416"}
+Rendering auth/callback
+Completed in 4358ms (View: 39, DB: 0) | 200 OK [http://localhost/auth/callback?oauth_token=5a68e0a4-0ee2-4c94-ac3a-4870cc5a54c5&oauth_verifier=47416]
+
+
+Processing AuthController#callback (for 127.0.0.1 at 2010-03-02 11:42:18) [GET]
+  Parameters: {"oauth_token"=>"5a68e0a4-0ee2-4c94-ac3a-4870cc5a54c5", "oauth_verifier"=>"47416"}
+Rendering auth/callback
+Completed in 4500ms (View: 55, DB: 0) | 200 OK [http://localhost/auth/callback?oauth_token=5a68e0a4-0ee2-4c94-ac3a-4870cc5a54c5&oauth_verifier=47416]
+
+
+Processing AuthController#callback (for 127.0.0.1 at 2010-03-02 11:43:01) [GET]
+  Parameters: {"oauth_token"=>"5a68e0a4-0ee2-4c94-ac3a-4870cc5a54c5", "oauth_verifier"=>"47416"}
+Rendering auth/callback
+Completed in 5009ms (View: 4, DB: 0) | 200 OK [http://localhost/auth/callback?oauth_token=5a68e0a4-0ee2-4c94-ac3a-4870cc5a54c5&oauth_verifier=47416]
+
+
+Processing AuthController#index (for 127.0.0.1 at 2010-03-02 11:44:48) [GET]
+1
+Redirected to https://api.linkedin.com/uas/oauth/authorize?oauth_token=d4bee715-556e-4992-9e81-870e510b07df
+Completed in 742ms (DB: 0) | 302 Found [http://localhost/]
+
+
+Processing AuthController#callback (for 127.0.0.1 at 2010-03-02 11:44:53) [GET]
+  Parameters: {"oauth_token"=>"d4bee715-556e-4992-9e81-870e510b07df", "oauth_verifier"=>"91460"}
+Rendering auth/callback
+
+ActionView::TemplateError (undefined method `url' for #<LinkedIn::Profile:0x103485298>) on line #4 of app/views/auth/callback.html.erb:
+1: <%= @profile.first_name %><br />
+2: <%= @profile.last_name %><br />
+3: <%= @profile.headline %><br />
+4: <%= link_to 'Profile url', @profile.url %>
+
+    app/views/auth/callback.html.erb:4
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (94.7ms)
+Rendered rescues/_request_and_response (1.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing AuthController#callback (for 127.0.0.1 at 2010-03-02 11:45:47) [GET]
+  Parameters: {"oauth_token"=>"d4bee715-556e-4992-9e81-870e510b07df", "oauth_verifier"=>"91460"}
+Rendering auth/callback
+
+ActionView::TemplateError (undefined method `linked_in_api_standard_profile_request_path' for #<ActionView::Base:0x10349cdf8>) on line #4 of app/views/auth/callback.html.erb:
+1: <%= @profile.first_name %><br />
+2: <%= @profile.last_name %><br />
+3: <%= @profile.headline %><br />
+4: <%= link_to 'Profile url', @profile.site_standard_profile_request %>
+
+    app/views/auth/callback.html.erb:4
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (35.2ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing AuthController#callback (for 127.0.0.1 at 2010-03-02 11:46:15) [GET]
+  Parameters: {"oauth_token"=>"d4bee715-556e-4992-9e81-870e510b07df", "oauth_verifier"=>"91460"}
+Rendering auth/callback
+Completed in 4396ms (View: 4, DB: 0) | 200 OK [http://localhost/auth/callback?oauth_token=d4bee715-556e-4992-9e81-870e510b07df&oauth_verifier=91460]
+
+
+Processing AuthController#callback (for 127.0.0.1 at 2010-03-02 11:46:34) [GET]
+  Parameters: {"oauth_token"=>"d4bee715-556e-4992-9e81-870e510b07df", "oauth_verifier"=>"91460"}
+Rendering auth/callback
+
+ActionView::TemplateError (undefined method `site_standard_profile_url' for #<LinkedIn::Profile:0x10370f748>) on line #4 of app/views/auth/callback.html.erb:
+1: <%= @profile.first_name %><br />
+2: <%= @profile.last_name %><br />
+3: <%= @profile.headline %><br />
+4: <%= @profile.site_standard_profile_url %>
+
+    app/views/auth/callback.html.erb:4
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (32.6ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing AuthController#callback (for 127.0.0.1 at 2010-03-02 11:46:47) [GET]
+  Parameters: {"oauth_token"=>"d4bee715-556e-4992-9e81-870e510b07df", "oauth_verifier"=>"91460"}
+Rendering auth/callback
+Completed in 3988ms (View: 4, DB: 0) | 200 OK [http://localhost/auth/callback?oauth_token=d4bee715-556e-4992-9e81-870e510b07df&oauth_verifier=91460]
+
+
+Processing AuthController#callback (for 127.0.0.1 at 2010-03-02 11:47:37) [GET]
+  Parameters: {"oauth_token"=>"d4bee715-556e-4992-9e81-870e510b07df", "oauth_verifier"=>"91460"}
+Rendering auth/callback
+Completed in 4185ms (View: 4, DB: 0) | 200 OK [http://localhost/auth/callback?oauth_token=d4bee715-556e-4992-9e81-870e510b07df&oauth_verifier=91460]
+
+
+Processing AuthController#callback (for 127.0.0.1 at 2010-03-02 11:48:10) [GET]
+  Parameters: {"oauth_token"=>"d4bee715-556e-4992-9e81-870e510b07df", "oauth_verifier"=>"91460"}
+Rendering auth/callback
+
+ActionView::TemplateError (can't convert String into Array) on line #4 of app/views/auth/callback.html.erb:
+1: <%= @profile.first_name %><br />
+2: <%= @profile.last_name %><br />
+3: <%= @profile.headline %><br />
+4: <%= (@profile.api_standard_profile_request.methods.sort - Object.inspect).inspect %>
+
+    app/views/auth/callback.html.erb:4:in `-'
+    app/views/auth/callback.html.erb:4
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (148.8ms)
+Rendered rescues/_request_and_response (0.7ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing AuthController#callback (for 127.0.0.1 at 2010-03-02 11:48:15) [GET]
+  Parameters: {"oauth_token"=>"d4bee715-556e-4992-9e81-870e510b07df", "oauth_verifier"=>"91460"}
+Rendering auth/callback
+Completed in 4085ms (View: 4, DB: 0) | 200 OK [http://localhost/auth/callback?oauth_token=d4bee715-556e-4992-9e81-870e510b07df&oauth_verifier=91460]
+
+
+Processing AuthController#callback (for 127.0.0.1 at 2010-03-02 11:49:00) [GET]
+  Parameters: {"oauth_token"=>"d4bee715-556e-4992-9e81-870e510b07df", "oauth_verifier"=>"91460"}
+Rendering auth/callback
+
+ActionView::TemplateError (undefined method `l' for nil:NilClass) on line #4 of app/views/auth/callback.html.erb:
+1: <%= @profile.first_name %><br />
+2: <%= @profile.last_name %><br />
+3: <%= @profile.headline %><br />
+4: <%= (@profile.api_standard_profile_request.l) %>
+
+    app/views/auth/callback.html.erb:4
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (33.6ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing AuthController#callback (for 127.0.0.1 at 2010-03-02 11:49:08) [GET]
+  Parameters: {"oauth_token"=>"d4bee715-556e-4992-9e81-870e510b07df", "oauth_verifier"=>"91460"}
+Rendering auth/callback
+
+ActionView::TemplateError (undefined method `I' for nil:NilClass) on line #4 of app/views/auth/callback.html.erb:
+1: <%= @profile.first_name %><br />
+2: <%= @profile.last_name %><br />
+3: <%= @profile.headline %><br />
+4: <%= (@profile.api_standard_profile_request.I) %>
+
+    app/views/auth/callback.html.erb:4
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (31.9ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing AuthController#callback (for 127.0.0.1 at 2010-03-02 11:49:21) [GET]
+  Parameters: {"oauth_token"=>"d4bee715-556e-4992-9e81-870e510b07df", "oauth_verifier"=>"91460"}
+Rendering auth/callback
+Completed in 4138ms (View: 4, DB: 0) | 200 OK [http://localhost/auth/callback?oauth_token=d4bee715-556e-4992-9e81-870e510b07df&oauth_verifier=91460]
+
+
+Processing AuthController#callback (for 127.0.0.1 at 2010-03-02 11:49:43) [GET]
+  Parameters: {"oauth_token"=>"d4bee715-556e-4992-9e81-870e510b07df", "oauth_verifier"=>"91460"}
+Rendering auth/callback
+Completed in 3990ms (View: 4, DB: 0) | 200 OK [http://localhost/auth/callback?oauth_token=d4bee715-556e-4992-9e81-870e510b07df&oauth_verifier=91460]
+
+
+Processing AuthController#callback (for 127.0.0.1 at 2010-03-02 11:51:39) [GET]
+  Parameters: {"oauth_token"=>"d4bee715-556e-4992-9e81-870e510b07df", "oauth_verifier"=>"91460"}
+Rendering auth/callback
+
+ActionView::TemplateError (wrong number of arguments (0 for 1)) on line #5 of app/views/auth/callback.html.erb:
+2: <%= @profile.last_name %><br />
+3: <%= @profile.headline %><br />
+4: <% methods = ["api_standard_profile_request", "associations", "connections", "current_status", "current_status_timestamp", "distance", "education", "first_name", "headline", "honors", "industry", "interests", "last_name", "location", "member_url_resources", "num_recommenders", "picture_url", "positions", "proposal_comments", "relation_to_viewer", "roxml_references", "roxml_references=", "site_standard_profile_request", "specialties", "summary", "three_current_positions", "to_xml"] %>
+5: <%= methods.each{|m| @profile.send(m).inspect } %>
+
+    app/views/auth/callback.html.erb:5:in `roxml_references='
+    app/views/auth/callback.html.erb:5:in `send'
+    app/views/auth/callback.html.erb:5
+    app/views/auth/callback.html.erb:5:in `each'
+    app/views/auth/callback.html.erb:5
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (108.2ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing AuthController#callback (for 127.0.0.1 at 2010-03-02 11:52:18) [GET]
+  Parameters: {"oauth_token"=>"d4bee715-556e-4992-9e81-870e510b07df", "oauth_verifier"=>"91460"}
+Rendering auth/callback
+
+ActionView::TemplateError (undefined method `api_standard_profile_request' for #<ActionView::Base:0x1035d2510>) on line #5 of app/views/auth/callback.html.erb:
+2: <%= @profile.last_name %><br />
+3: <%= @profile.headline %><br />
+4: <% methods = ["api_standard_profile_request", "associations", "connections", "current_status", "current_status_timestamp", "distance", "education", "first_name", "headline", "honors", "industry", "interests", "last_name", "location", "member_url_resources", "num_recommenders", "picture_url", "positions", "proposal_comments", "relation_to_viewer", "roxml_references", "roxml_references=", "site_standard_profile_request", "specialties", "summary", "three_current_positions", "to_xml"] %>
+5: <%= methods.each{|m| @profile.try(send(m)).inspect } %>
+
+    app/views/auth/callback.html.erb:5:in `send'
+    app/views/auth/callback.html.erb:5
+    app/views/auth/callback.html.erb:5:in `each'
+    app/views/auth/callback.html.erb:5
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (35.6ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing AuthController#callback (for 127.0.0.1 at 2010-03-02 11:54:14) [GET]
+  Parameters: {"oauth_token"=>"d4bee715-556e-4992-9e81-870e510b07df", "oauth_verifier"=>"91460"}
+Rendering auth/callback
+Completed in 4182ms (View: 4, DB: 0) | 200 OK [http://localhost/auth/callback?oauth_token=d4bee715-556e-4992-9e81-870e510b07df&oauth_verifier=91460]
+
+
+Processing AuthController#callback (for 127.0.0.1 at 2010-03-02 11:54:42) [GET]
+  Parameters: {"oauth_token"=>"d4bee715-556e-4992-9e81-870e510b07df", "oauth_verifier"=>"91460"}
+Rendering auth/callback
+Completed in 4059ms (View: 4, DB: 0) | 200 OK [http://localhost/auth/callback?oauth_token=d4bee715-556e-4992-9e81-870e510b07df&oauth_verifier=91460]
+
+
+Processing AuthController#callback (for 127.0.0.1 at 2010-03-02 11:55:09) [GET]
+  Parameters: {"oauth_token"=>"d4bee715-556e-4992-9e81-870e510b07df", "oauth_verifier"=>"91460"}
+Rendering auth/callback
+Completed in 4107ms (View: 103, DB: 0) | 200 OK [http://localhost/auth/callback?oauth_token=d4bee715-556e-4992-9e81-870e510b07df&oauth_verifier=91460]
+
+
+Processing AuthController#index (for 127.0.0.1 at 2010-03-02 11:55:34) [GET]
+1
+Redirected to https://api.linkedin.com/uas/oauth/authorize?oauth_token=8a4e98b3-d87e-4b5e-a712-25a4a3404f95
+Completed in 593ms (DB: 0) | 302 Found [http://localhost/]
+
+
+Processing AuthController#callback (for 127.0.0.1 at 2010-03-02 11:55:41) [GET]
+  Parameters: {"oauth_token"=>"8a4e98b3-d87e-4b5e-a712-25a4a3404f95", "oauth_verifier"=>"79679"}
+Rendering auth/callback
+Completed in 4322ms (View: 1, DB: 0) | 200 OK [http://localhost/auth/callback?oauth_token=8a4e98b3-d87e-4b5e-a712-25a4a3404f95&oauth_verifier=79679]
+
+
+Processing AuthController#callback (for 127.0.0.1 at 2010-03-02 12:08:26) [GET]
+  Parameters: {"oauth_token"=>"8a4e98b3-d87e-4b5e-a712-25a4a3404f95", "oauth_verifier"=>"79679"}
+Rendering auth/callback
+Completed in 5047ms (View: 779, DB: 0) | 200 OK [http://localhost/auth/callback?oauth_token=8a4e98b3-d87e-4b5e-a712-25a4a3404f95&oauth_verifier=79679]
+
+
+Processing AuthController#callback (for 127.0.0.1 at 2010-03-02 12:08:41) [GET]
+  Parameters: {"oauth_token"=>"8a4e98b3-d87e-4b5e-a712-25a4a3404f95", "oauth_verifier"=>"79679"}
+Rendering auth/callback
+Completed in 4936ms (View: 779, DB: 0) | 200 OK [http://localhost/auth/callback?oauth_token=8a4e98b3-d87e-4b5e-a712-25a4a3404f95&oauth_verifier=79679]
+
+
+Processing AuthController#callback (for 127.0.0.1 at 2010-03-02 12:11:39) [GET]
+  Parameters: {"oauth_token"=>"8a4e98b3-d87e-4b5e-a712-25a4a3404f95", "oauth_verifier"=>"79679"}
+Rendering auth/callback
+Completed in 4159ms (View: 5, DB: 0) | 200 OK [http://localhost/auth/callback?oauth_token=8a4e98b3-d87e-4b5e-a712-25a4a3404f95&oauth_verifier=79679]
+
+
+Processing AuthController#callback (for 127.0.0.1 at 2010-03-02 12:12:11) [GET]
+  Parameters: {"oauth_token"=>"8a4e98b3-d87e-4b5e-a712-25a4a3404f95", "oauth_verifier"=>"79679"}
+Rendering auth/callback
+
+ActionView::TemplateError (undefined method `each' for #<LinkedIn::Network:0x1033519d0>) on line #13 of app/views/auth/callback.html.erb:
+10: 
+11: <%#= @profile.picture_url %>
+12: 
+13: <%= @client.network_updates(:type => 'PICT').each{|n| n.picture_url} %>
+14: 
+15: <%= link_to 'profile url', @profile.site_standard_profile_request.url %>
+
+    app/views/auth/callback.html.erb:13
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (32.3ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing AuthController#callback (for 127.0.0.1 at 2010-03-02 12:12:36) [GET]
+  Parameters: {"oauth_token"=>"8a4e98b3-d87e-4b5e-a712-25a4a3404f95", "oauth_verifier"=>"79679"}
+Rendering auth/callback
+Completed in 4893ms (View: 802, DB: 0) | 200 OK [http://localhost/auth/callback?oauth_token=8a4e98b3-d87e-4b5e-a712-25a4a3404f95&oauth_verifier=79679]
+
+
+Processing AuthController#callback (for 127.0.0.1 at 2010-03-02 12:13:28) [GET]
+  Parameters: {"oauth_token"=>"8a4e98b3-d87e-4b5e-a712-25a4a3404f95", "oauth_verifier"=>"79679"}
+Rendering auth/callback
+
+ActionView::TemplateError (undefined method `picture_url' for #<LinkedIn::Update:0x10351b3b0>) on line #13 of app/views/auth/callback.html.erb:
+10: 
+11: <%#= @profile.picture_url %>
+12: 
+13: <%= @client.network_updates(:type => 'PICT').updates.each{|u| u.picture_url } %>
+14: 
+15: <%= link_to 'profile url', @profile.site_standard_profile_request.url %>
+
+    app/views/auth/callback.html.erb:13
+    app/views/auth/callback.html.erb:13:in `each'
+    app/views/auth/callback.html.erb:13
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (120.6ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing AuthController#callback (for 127.0.0.1 at 2010-03-02 12:13:33) [GET]
+  Parameters: {"oauth_token"=>"8a4e98b3-d87e-4b5e-a712-25a4a3404f95", "oauth_verifier"=>"79679"}
+Rendering auth/callback
+
+ActionView::TemplateError (undefined method `picture_url' for #<LinkedIn::Update:0x103412108>) on line #13 of app/views/auth/callback.html.erb:
+10: 
+11: <%#= @profile.picture_url %>
+12: 
+13: <%= @client.network_updates(:type => 'PICT').updates.each{|u| u.picture_url } %>
+14: 
+15: <%= link_to 'profile url', @profile.site_standard_profile_request.url %>
+
+    app/views/auth/callback.html.erb:13
+    app/views/auth/callback.html.erb:13:in `each'
+    app/views/auth/callback.html.erb:13
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (34.7ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing AuthController#callback (for 127.0.0.1 at 2010-03-02 12:13:52) [GET]
+  Parameters: {"oauth_token"=>"8a4e98b3-d87e-4b5e-a712-25a4a3404f95", "oauth_verifier"=>"79679"}
+Rendering auth/callback
+Completed in 5043ms (View: 875, DB: 0) | 200 OK [http://localhost/auth/callback?oauth_token=8a4e98b3-d87e-4b5e-a712-25a4a3404f95&oauth_verifier=79679]
+
+
+Processing AuthController#callback (for 127.0.0.1 at 2010-03-02 12:18:33) [GET]
+  Parameters: {"oauth_token"=>"8a4e98b3-d87e-4b5e-a712-25a4a3404f95", "oauth_verifier"=>"79679"}
+Rendering auth/callback
+
+ActionView::TemplateError (undefined method `relation_to_viewer' for #<LinkedIn::Update:0x103334448>) on line #13 of app/views/auth/callback.html.erb:
+10: 
+11: <%#= @profile.picture_url %>
+12: 
+13: <%= @client.network_updates(:type => 'PICT').updates.first.relation_to_viewer.inspect %>
+14: 
+15: <%= link_to 'profile url', @profile.site_standard_profile_request.url %>
+
+    app/views/auth/callback.html.erb:13
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (32.1ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing AuthController#callback (for 127.0.0.1 at 2010-03-02 12:18:50) [GET]
+  Parameters: {"oauth_token"=>"8a4e98b3-d87e-4b5e-a712-25a4a3404f95", "oauth_verifier"=>"79679"}
+Rendering auth/callback
+Completed in 4982ms (View: 858, DB: 0) | 200 OK [http://localhost/auth/callback?oauth_token=8a4e98b3-d87e-4b5e-a712-25a4a3404f95&oauth_verifier=79679]
+
+
+Processing AuthController#callback (for 127.0.0.1 at 2010-03-02 12:19:41) [GET]
+  Parameters: {"oauth_token"=>"8a4e98b3-d87e-4b5e-a712-25a4a3404f95", "oauth_verifier"=>"79679"}
+Rendering auth/callback
+Completed in 4964ms (View: 795, DB: 0) | 200 OK [http://localhost/auth/callback?oauth_token=8a4e98b3-d87e-4b5e-a712-25a4a3404f95&oauth_verifier=79679]
+
+
+Processing AuthController#callback (for 127.0.0.1 at 2010-03-02 12:19:57) [GET]
+  Parameters: {"oauth_token"=>"8a4e98b3-d87e-4b5e-a712-25a4a3404f95", "oauth_verifier"=>"79679"}
+Rendering auth/callback
+Completed in 4917ms (View: 824, DB: 0) | 200 OK [http://localhost/auth/callback?oauth_token=8a4e98b3-d87e-4b5e-a712-25a4a3404f95&oauth_verifier=79679]
+
+
+Processing AuthController#callback (for 127.0.0.1 at 2010-03-02 12:20:42) [GET]
+  Parameters: {"oauth_token"=>"8a4e98b3-d87e-4b5e-a712-25a4a3404f95", "oauth_verifier"=>"79679"}
+Rendering auth/callback
+Completed in 5703ms (View: 1579, DB: 0) | 200 OK [http://localhost/auth/callback?oauth_token=8a4e98b3-d87e-4b5e-a712-25a4a3404f95&oauth_verifier=79679]
+
+
+Processing AuthController#callback (for 127.0.0.1 at 2010-03-02 12:22:41) [GET]
+  Parameters: {"oauth_token"=>"8a4e98b3-d87e-4b5e-a712-25a4a3404f95", "oauth_verifier"=>"79679"}
+Rendering auth/callback
+
+ActionView::TemplateError (undefined method `first_name' for #<LinkedIn::Update:0x10341b370>) on line #15 of app/views/auth/callback.html.erb:
+12: 
+13: <% @client.network_updates(:type => 'PICT').updates.each do |profile| %>
+14: 
+15:   <%= profile.first_name %> <%= profile.last_name %><br />
+16:   <%= image_tag profile.picture_url %>
+17: 
+18: <% end %>
+
+    app/views/auth/callback.html.erb:15
+    app/views/auth/callback.html.erb:13:in `each'
+    app/views/auth/callback.html.erb:13
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (37.4ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing AuthController#callback (for 127.0.0.1 at 2010-03-02 12:23:17) [GET]
+  Parameters: {"oauth_token"=>"8a4e98b3-d87e-4b5e-a712-25a4a3404f95", "oauth_verifier"=>"79679"}
+Rendering auth/callback
+Completed in 5798ms (View: 1639, DB: 0) | 200 OK [http://localhost/auth/callback?oauth_token=8a4e98b3-d87e-4b5e-a712-25a4a3404f95&oauth_verifier=79679]
+
+
+Processing AuthController#callback (for 127.0.0.1 at 2010-03-02 12:23:48) [GET]
+  Parameters: {"oauth_token"=>"8a4e98b3-d87e-4b5e-a712-25a4a3404f95", "oauth_verifier"=>"79679"}
+Rendering auth/callback
+Completed in 4919ms (View: 925, DB: 0) | 200 OK [http://localhost/auth/callback?oauth_token=8a4e98b3-d87e-4b5e-a712-25a4a3404f95&oauth_verifier=79679]
+
+
+Processing AuthController#callback (for 127.0.0.1 at 2010-03-02 12:25:06) [GET]
+  Parameters: {"oauth_token"=>"8a4e98b3-d87e-4b5e-a712-25a4a3404f95", "oauth_verifier"=>"79679"}
+Rendering auth/callback
+Completed in 5043ms (View: 906, DB: 0) | 200 OK [http://localhost/auth/callback?oauth_token=8a4e98b3-d87e-4b5e-a712-25a4a3404f95&oauth_verifier=79679]
+
+
+Processing AuthController#index (for 127.0.0.1 at 2010-03-02 12:28:11) [GET]
+1
+https://api.linkedin.com/uas/oauth/authorize?oauth_token=9123b858-0ae7-4299-b82b-ca08cef641f4
+Redirected to https://api.linkedin.com/uas/oauth/authorize?oauth_token=9123b858-0ae7-4299-b82b-ca08cef641f4
+Completed in 740ms (DB: 0) | 302 Found [http://localhost/]
+
+
+Processing AuthController#callback (for 127.0.0.1 at 2010-03-02 12:29:40) [GET]
+  Parameters: {"oauth_token"=>"9123b858-0ae7-4299-b82b-ca08cef641f4", "oauth_verifier"=>"17282"}
+Rendering auth/callback
+Completed in 4998ms (View: 889, DB: 0) | 200 OK [http://localhost/auth/callback?oauth_token=9123b858-0ae7-4299-b82b-ca08cef641f4&oauth_verifier=17282]
+
+
+Processing AuthController#callback (for 127.0.0.1 at 2010-03-02 12:30:07) [GET]
+  Parameters: {"oauth_token"=>"9123b858-0ae7-4299-b82b-ca08cef641f4", "oauth_verifier"=>"17282"}
+Rendering auth/callback
+Completed in 4851ms (View: 845, DB: 0) | 200 OK [http://localhost/auth/callback?oauth_token=9123b858-0ae7-4299-b82b-ca08cef641f4&oauth_verifier=17282]
+
+
+Processing AuthController#callback (for 127.0.0.1 at 2010-03-02 12:32:50) [GET]
+  Parameters: {"oauth_token"=>"9123b858-0ae7-4299-b82b-ca08cef641f4", "oauth_verifier"=>"17282"}
+Rendering auth/callback
+
+ActionView::TemplateError (undefined method `url' for nil:NilClass) on line #25 of app/views/auth/callback.html.erb:
+22: </p>
+23: <%# = (@client.network_updates(:type => 'PICT').updates.first.profile.methods.sort - Object.methods).inspect %>
+24: 
+25: <%= link_to 'profile url', @profile.site_standard_profile_request.url %>
+
+    app/views/auth/callback.html.erb:25
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (33.9ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing AuthController#callback (for 127.0.0.1 at 2010-03-02 12:33:30) [GET]
+  Parameters: {"oauth_token"=>"9123b858-0ae7-4299-b82b-ca08cef641f4", "oauth_verifier"=>"17282"}
+Rendering auth/callback
+Completed in 4958ms (View: 844, DB: 0) | 200 OK [http://localhost/auth/callback?oauth_token=9123b858-0ae7-4299-b82b-ca08cef641f4&oauth_verifier=17282]
+
+
+Processing AuthController#callback (for 127.0.0.1 at 2010-03-02 12:34:09) [GET]
+  Parameters: {"oauth_token"=>"9123b858-0ae7-4299-b82b-ca08cef641f4", "oauth_verifier"=>"17282"}
+Rendering auth/callback
+Completed in 4805ms (View: 840, DB: 0) | 200 OK [http://localhost/auth/callback?oauth_token=9123b858-0ae7-4299-b82b-ca08cef641f4&oauth_verifier=17282]
+
+
+Processing AuthController#callback (for 127.0.0.1 at 2010-03-02 12:35:35) [GET]
+  Parameters: {"oauth_token"=>"9123b858-0ae7-4299-b82b-ca08cef641f4", "oauth_verifier"=>"17282"}
+Rendering auth/callback
+Completed in 5244ms (View: 862, DB: 0) | 200 OK [http://localhost/auth/callback?oauth_token=9123b858-0ae7-4299-b82b-ca08cef641f4&oauth_verifier=17282]
+
+
+Processing AuthController#callback (for 127.0.0.1 at 2010-03-02 12:35:55) [GET]
+  Parameters: {"oauth_token"=>"9123b858-0ae7-4299-b82b-ca08cef641f4", "oauth_verifier"=>"17282"}
+Rendering auth/callback
+Completed in 6870ms (View: 1140, DB: 0) | 200 OK [http://localhost/auth/callback?oauth_token=9123b858-0ae7-4299-b82b-ca08cef641f4&oauth_verifier=17282]
+
+
+Processing AuthController#callback (for 127.0.0.1 at 2010-03-02 12:36:24) [GET]
+  Parameters: {"oauth_token"=>"9123b858-0ae7-4299-b82b-ca08cef641f4", "oauth_verifier"=>"17282"}
+Rendering auth/callback
+Completed in 6359ms (View: 774, DB: 0) | 200 OK [http://localhost/auth/callback?oauth_token=9123b858-0ae7-4299-b82b-ca08cef641f4&oauth_verifier=17282]
+
+
+Processing AuthController#index (for 127.0.0.1 at 2010-03-02 14:55:12) [GET]
+1
+https://api.linkedin.com/uas/oauth/authorize?oauth_token=a34aac74-3a0d-48a1-a5b5-831ec50c05ef
+Redirected to https://api.linkedin.com/uas/oauth/authorize?oauth_token=a34aac74-3a0d-48a1-a5b5-831ec50c05ef(industry)
+Completed in 849ms (DB: 0) | 302 Found [http://localhost/]
+
+
+Processing AuthController#index (for 127.0.0.1 at 2010-03-02 14:56:18) [GET]
+1
+https://api.linkedin.com/uas/oauth/authorize?oauth_token=5bb57670-60d3-4d3b-90ef-8828c0a2141c
+Redirected to https://api.linkedin.com/uas/oauth/authorize?oauth_token=5bb57670-60d3-4d3b-90ef-8828c0a2141c
+Completed in 682ms (DB: 0) | 302 Found [http://localhost/]
+
+
+Processing AuthController#index (for 127.0.0.1 at 2010-03-02 14:56:42) [GET]
+1
+https://api.linkedin.com/uas/oauth/authorize?oauth_token=f2177b6c-db52-4e3d-a7d3-f6e0e4606394
+Redirected to https://api.linkedin.com/uas/oauth/authorize?oauth_token=f2177b6c-db52-4e3d-a7d3-f6e0e4606394
+Completed in 695ms (DB: 0) | 302 Found [http://localhost/]
+
+
+Processing AuthController#callback (for 127.0.0.1 at 2010-03-02 14:56:56) [GET]
+  Parameters: {"oauth_token"=>"f2177b6c-db52-4e3d-a7d3-f6e0e4606394", "oauth_verifier"=>"75880"}
+Rendering auth/callback
+Completed in 6705ms (View: 841, DB: 0) | 200 OK [http://localhost/auth/callback?oauth_token=f2177b6c-db52-4e3d-a7d3-f6e0e4606394&oauth_verifier=75880]
+
+
+Processing AuthController#index (for 127.0.0.1 at 2010-03-02 19:18:57) [GET]
+1
+https://api.linkedin.com/uas/oauth/authorize?oauth_token=afb38ecb-0210-4617-b94f-c9567aaa0e7d
+Redirected to https://api.linkedin.com/uas/oauth/authorize?oauth_token=afb38ecb-0210-4617-b94f-c9567aaa0e7d
+Completed in 978ms (DB: 0) | 302 Found [http://localhost/]
+
+
+Processing AuthController#callback (for 127.0.0.1 at 2010-03-02 19:19:14) [GET]
+  Parameters: {"oauth_token"=>"afb38ecb-0210-4617-b94f-c9567aaa0e7d", "oauth_verifier"=>"27626"}
+Rendering auth/callback
+Completed in 6965ms (View: 929, DB: 0) | 200 OK [http://localhost/auth/callback?oauth_token=afb38ecb-0210-4617-b94f-c9567aaa0e7d&oauth_verifier=27626]

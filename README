@@ -1,0 +1,11 @@
+== LinkedIn gem demo
+
+This is a demo of the linkedin gem.
+
+== Getting Started
+
+1. install the linkedin gem - http://github.com/pengwynn/linkedin
+2. get your api keys at https://www.linkedin.com/secure/developer and fill them in in the auth_controller
+3. Just start up your mongrel, go to the root and observe!
+
+Fields you can use can be found at http://developer.linkedin.com/docs/DOC-1061 (also add them in the controller)
